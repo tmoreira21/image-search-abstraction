@@ -16,10 +16,7 @@ app.get('/*',function(req,res){
         res.send(ret);
     }
    
-    /*function storeOnDatabase(){
-       
-    }*/
-    
+
     if(url_parts["path"].toString().length > 1){
         var axx = url_parts["path"].split("?");
         if(axx.length == 2){
